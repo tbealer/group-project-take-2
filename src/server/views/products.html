@@ -23,179 +23,20 @@
 <div class="container">
     <div class="row">
       <div class="col-md-12">
+
+    {% for watch in products %}
       
       <div class="col-xs-6 col-sm-4 col-md-3 analog">
         <div class="thumbnail" >
-          <img src="img/woodAnalog21.jpg" class="img-responsive">
+          <img src="{{ watch.image_url}}" class="img-responsive">
           <div class="caption">
             <div class="row">
               <div class="col-md-6 col-xs-6">
-                <h3>The Carlton</h3>
+                <h3>{{ watch.name }}</h3>
               </div>
               <div class="col-md-6 col-xs-6 price">
                 <h4>
-                <label>$379.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 analog">
-        <div class="thumbnail" >
-          <img src="img/metalAnalog23.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Loiusa</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$349.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 analog">
-        <div class="thumbnail" >
-          <img src="img/woodAnalog23.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Pendelton</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$379.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 analog">
-        <div class="thumbnail" >
-          <img src="img/metalAnalog27.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Dennis</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$349.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>    
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 digital">
-        <div class="thumbnail" >
-          <img src="img/woodDigital21.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Arlington</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$379.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 digital">
-        <div class="thumbnail" >
-          <img src="img/metalDigital21.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Tyler</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$349.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>            
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 digital">
-        <div class="thumbnail" >
-          <img src="img/woodDigital25.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Hamilton</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$379.99</label></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
-            </div>
-
-            <p> </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xs-6 col-sm-4 col-md-3 digital">
-        <div class="thumbnail" >
-          <img src="img/metalDigital23.jpg" class="img-responsive">
-          <div class="caption">
-            <div class="row">
-              <div class="col-md-6 col-xs-6">
-                <h3>The Kevin</h3>
-              </div>
-              <div class="col-md-6 col-xs-6 price">
-                <h4>
-                <label>$349.99</label></h4>
+                <label>{{ watch.price }}</label></h4>
               </div>
             </div>
             <div class="row">
@@ -208,9 +49,8 @@
         </div>
       </div>
 
-
-
-
+    {% endfor %}
+      
     </div> 
 
   </div>
