@@ -11,26 +11,26 @@
       <p>Your Purchase</p>
   </div>
 </section>
-<form>
+<form action='/checkout' method='post'>
 <section class="row" id="shippingContent">
   <div class="container part">
     <h4>Shipping</h4>
     <div class="col-md-3 col-sm-3">
         <div class="form-group">
-          <label form="firstName">First Name:</label>
-            <input id="firstName" class="form-control" type="text" placeholder="First Name">
+          <label for="firstName">First Name:</label>
+            <input id="firstName" class="form-control" type="text" placeholder="First Name" name="firstName">
         </div>
     </div>
     <div class="col-md-3 col-sm-3 col-sm-offset-1 col-md-offset-1">
         <div class="form-group">
           <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" class="form-control" placeholder="Last Name">
+          <input type="text" id="lastName" class="form-control" placeholder="Last Name" name="lastName">
         </div>
     </div>
     <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
       <div class="form-group">
         <label for="company">Company</label>
-        <input type="text" id="company" class="form-control" placeholder="Company name">
+        <input type="text" id="company" class="form-control" placeholder="Company name" name="company">
       </div>
   </div>
   </div>
@@ -40,13 +40,13 @@
     <div class="col-md-5 col-sm-5">
         <div class="form-group">
           <label for="addLine1">Address Line 1</label>
-          <input type="text" id="addLine1" class="form-control" placeholder="Address">
+          <input type="text" id="addLine1" class="form-control" placeholder="Address" name="addLine1">
         </div>
     </div>
     <div class="col-md-5 col-sm-5 col-sm-offset-1 col-md-offset-1">
         <div class="form-group">
           <label for="addLine2">Address Line 2</label>
-          <input type="text" id="addLine2" class="form-control" placeholder="address line 2">
+          <input type="text" id="addLine2" class="form-control" placeholder="address line 2" name="addline2">
         </div>
     </div>
   </div>
@@ -55,7 +55,7 @@
   <div class="container">
     <div class="col-md-3 col-sm-3">
         <label for="stateId">State</label><br>
-        <select id="stateId">
+        <select id="stateId" name="stateId">
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -170,7 +170,7 @@
     <div class="container">
       <div class="col-md-3 col-sm-3">
         <label for="bstateId">State</label><br>
-        <select id="bstateId">
+        <select id="bstateId" name="state">
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -239,19 +239,19 @@
     <div class="col-md-3 col-sm-3">
       <div class="form-group">
         <label for="cardNumber">Credit Card Number</label>
-        <input id="cardNumber" class="form-control" placeholder="Enter your card number">
+        <input id="cardNumber" class="form-control" placeholder="Enter your card number" name="cardNumber">
       </div>
     </div>
     <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-1">
       <div class="form-group">
         <label for="expiration">Expiration</label>
-        <input type="text" id="expiration" class="form-control">
+        <input type="text" id="expiration" class="form-control" name="expiration">
       </div>
     </div>
     <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-1">
       <div class="form-group">
         <label for="cvc">CVC Security Code</label>
-        <input type="text" id="cvc" class="form-control">
+        <input type="text" id="cvc" class="form-control" name="cvc">
       </div>
   </div>
     <div class="col-md-2 col-sm-2 col-md-offset-1 col-md-offset-1">

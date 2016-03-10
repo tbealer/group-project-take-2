@@ -14,5 +14,10 @@ router.get('/checkout', function(req, res, next) {
 });
 
 
+router.post('/checkout', function(req, res, next) {
+  var email= req.body.email;
+  res.render('checkout', { title: 'Express' });
+});
+
 
 module.exports = router;
