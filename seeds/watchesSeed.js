@@ -5,7 +5,8 @@ exports.seed = function(knex, Promise) {
 
   knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+ 
+       name: 'The ga-RAN',
        image_url: '/img/metalAnalog21.png',
        price: 499.99
      }
@@ -13,7 +14,8 @@ exports.seed = function(knex, Promise) {
      ),
   knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+
+       name: 'The TIE-ler',
        image_url: '/img/metalAnalog23.jpg',
        price: 399.99
      }
@@ -21,7 +23,8 @@ exports.seed = function(knex, Promise) {
      ),
   knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+
+       name: 'The A-DAMN!',
        image_url: '/img/metalAnalog27.jpg',
        price: 449.99
      }
@@ -29,7 +32,8 @@ exports.seed = function(knex, Promise) {
      ),
   knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+
+       name: 'The JAM-es',
        image_url: '/img/metalDigital21.jpg',
        price: 499.99
      }
@@ -37,7 +41,8 @@ exports.seed = function(knex, Promise) {
      ),
    knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+
+       name: 'The HUNT-er',
        image_url: '/img/metalDigital23.jpg',
        price: 349.99
      }
@@ -45,13 +50,29 @@ exports.seed = function(knex, Promise) {
      ),
    knex('watches').insert(
      {
-       name: 'Tommy Bealer',
+
+       name: 'The ROB-by',
+       image_url: '/img/metalDigital25.jpg',
+       price: 479.99
+     }
+
+     ),
+   knex('watches').insert(
+     {
+       name: 'The kev-IN',
+       image_url: '/img/metalDigital25.jpg',
+       price: 479.99
+     }
+
+     ),
+   knex('watches').insert(
+     {
+       name: 'The MILLS',
        image_url: '/img/metalDigital25.jpg',
        price: 479.99
      }
 
      )
-   
-
    );
-}
+
+   };
